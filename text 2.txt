@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>815 Remodeling - Zach Larson</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>815 Remodeling</h1>
+    <p>Transparent Pricing. Honest Practices. Exceptional Quality.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#schedule">Schedule a Free Estimate</a>
+</nav>
+
+<section id="about">
+    <h2>About 815 Remodeling</h2>
+    <p>
+        815 Remodeling was founded by Zach Larson in 2018 after he worked for one of the larger remodeling companies in the Rockford, Illinois area. 
+        Seeing how much they were overcharging people for materials and labor costs, Zach made it his mission to provide transparent pricing and honest practices with his clients.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Our Projects</h2>
+    <p>We specialize in various remodeling projects, including but not limited to:</p>
+    <ul>
+        <li>Home Renovations</li>
+        <li>Bathroom Remodeling</li>
+        <li>Kitchen Remodeling</li>
+        <li>Basement Restorations</li>
+        <li>Flooring Installations</li>
+        <li>Painting</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+        If you have any questions or would like to discuss your next project, please reach out to us:
+    </p>
+    <p>Email: <a href="mailto:info@815remodeling.com">info@815remodeling.com</a></p>
+    <p>Phone: (815) 123-4567</p>
+    <p>Address: Rockford, IL</p>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Project Image 1">
+        <img src="image2.jpg" alt="Project Image 2">
+        <img src="image3.jpg" alt="Project Image 3">
+        <!-- Add more images as needed -->
+    </div>
+</section>
+
+<section id="schedule">
+    <h2>Schedule a Free Estimate</h2>
+    <p>
+        Ready to start your next remodeling project? Schedule a free estimate with us today:
+    </p>
+    <form action="submit_estimate.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 815 Remodeling. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
